@@ -1,0 +1,25 @@
+    1  clear
+    2  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    3  unzip awscliv2.zip
+    4  sudo ./aws/install~curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    5  unzip awscliv2.zip
+    6  sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+    7  sudo apt install unzip
+    8  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    9  unzip awscliv2.zip
+   10  sudo ./aws/install
+   11  aws --version
+   12  clear
+   13  aws configure
+   14  vi aws_resource_tracker.sh
+   15  chmod 777
+   16  ls
+   17  chmod 777 aws_resource_tracker.sh
+   18  ./aws_resource_tracker.sh
+   19  clear
+   20  history
+   21  clear
+   22  history
+   23  ls
+   24  clear
+   25  history
